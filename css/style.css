@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+[class*="col-"] {
+  height: 150px;
+  border: 1px solid black;
+  background-color: pink;
+  line-height: 150px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container .col-6 *[class*="col-"] {
+  background-color: #f07f80;
+  border: 1px solid white;
+  height: 140px;
+  line-height: 140px;
+
+}
+
+.container .col-6 {
+  padding: 3px;
+}
